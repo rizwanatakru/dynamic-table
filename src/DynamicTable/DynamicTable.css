@@ -1,0 +1,56 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-container .buttons-wrapper {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.table-container table {
+  width: fit-content;
+  overflow: hidden;
+}
+
+.table-container table input {
+  border: none;
+  padding: 6px 10px;
+  width: calc(100% - 20px);
+}
+.table-container table input:focus {
+  outline: none;
+}
+.table-container table th {
+  overflow: hidden;
+  position: relative;
+}
+
+.table-container table th input {
+  font-weight: bold;
+}
+
+.table-container table button {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  height: 20px;
+  width: 20px;
+
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.table-container table th:hover button {
+  right: 3px;
+}
+
+.table-container table tr {
+  position: relative;
+}
+
+.table-container table tr:hover button {
+  right: 6px;
+}

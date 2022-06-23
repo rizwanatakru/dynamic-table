@@ -1,0 +1,49 @@
+.risk-profile-container {
+  margin-bottom: 30px;
+
+  .col-sm-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .select-container {
+    max-width: 100% !important;
+
+    select {
+      font-weight: 500 !important;
+    }
+
+    .MuiInputBase-root {
+      padding: 6px 20px;
+      width: 100%;
+      border-radius: 100px;
+      border: 1px solid #b2b2b2;
+      color: #6a6a6a;
+      margin-top: 5px;
+      margin-bottom: 10px;
+
+      &.Mui-focused {
+        &::after {
+          display: none !important;
+        }
+
+        select {
+          background-color: transparent !important;
+        }
+      }
+
+      &::before {
+        display: none !important;
+      }
+    }
+  }
+
+  .MuiFormControlLabel-root {
+    margin-top: 15px !important;
+
+    .MuiFormControlLabel-label {
+      font-weight: 500;
+      font-size: 13px !important;
+    }
+  }
+}
